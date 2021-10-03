@@ -1,0 +1,41 @@
+body {
+  background-color: #00c8ff;
+  margin: 0;
+}
+
+.App-Logo {
+  position: sticky;
+  margin: 7px 7px;
+  height: 70px;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.logo-text {
+  position: relative;
+  top: -50px;
+  left: 170px;
+  size: 50px;
+  color: #ffffff;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: bold;
+}
+.container-bar {
+  display: flex;
+}
+
+.text img {
+  display: table-row;
+  align-content: center;
+  text-align: center;
+  height: 140px;
+  width: 140px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.menu {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
